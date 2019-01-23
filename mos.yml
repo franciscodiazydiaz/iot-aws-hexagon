@@ -24,6 +24,7 @@ libs:
 
   # libs necessary for the current app
   - origin: https://github.com/mongoose-os-libs/dht
+  - origin: https://github.com/mongoose-os-libs/prometheus-metrics
 
 config_schema:
   - ["dns_sd.enable", true]
