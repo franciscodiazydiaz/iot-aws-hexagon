@@ -24,3 +24,15 @@ Connect the device to your USB port and execute:
 mos build --platform esp32
 mos flash
 ```
+
+## Expose and Graph metrics
+
+The implementation supports the Prometheus `/metrics` endpoint so
+metrics can be fetched with Prometheus. Grafana would provide fancy
+dashboard. This is already implemented in `docker-compose`.
+
+```bash
+docker-compose up
+```
+
+Metrics would be written to the local DB where Prometheus is running.
