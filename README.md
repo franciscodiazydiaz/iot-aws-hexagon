@@ -8,7 +8,7 @@ AWS Hexagon v1 contains a dual-core ESP32 chip, 4 MB of SPI Flash, tuned antenna
 
 ## Requirements
 
-In order to program the Hexagon you need [Mongoose OS](https://mongoose-os.com/docs/quickstart/setup.md) binary.
+In order to program the Hexagon you need [Mongoose OS](https://mongoose-os.com/docs/mongoose-os/quickstart/setup.md) binary.
 
 The code will:
 
